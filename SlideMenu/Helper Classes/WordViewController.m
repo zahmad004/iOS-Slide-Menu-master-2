@@ -1,8 +1,7 @@
 
+#import "WordViewController.h"
 
-#import "ToneViewController.h"
-
-@implementation ToneViewController
+@implementation WordViewController
 
 - (void)viewDidLoad
 {
@@ -18,7 +17,7 @@
 
 - (BOOL)slideNavigationControllerShouldDisplayRightMenu
 {
-	return YES;
+	return NO;
 }
 
 @end

@@ -1,8 +1,8 @@
 
 
-#import "ToneViewController.h"
+#import "HRVViewController.h"
 
-@implementation ToneViewController
+@implementation HRVViewController
 
 - (void)viewDidLoad
 {

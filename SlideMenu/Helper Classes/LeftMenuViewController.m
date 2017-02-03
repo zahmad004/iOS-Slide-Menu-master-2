@@ -1,10 +1,4 @@
-//
-//  MenuViewController.m
-//  SlideMenu
-//
-//  Created by Aryan Gh on 4/24/13.
-//  Copyright (c) 2013 Aryan Ghassemi. All rights reserved.
-//
+
 
 #import "LeftMenuViewController.h"
 #import "SlideNavigationContorllerAnimatorFade.h"
@@ -28,7 +22,10 @@
 {
 	[super viewDidLoad];
 	
-	self.tableView.separatorColor = [UIColor lightGrayColor];
+	self.tableView.separatorColor = [UIColor darkGrayColor];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"watson.jpg"]];
+    self.tableView.backgroundView = imageView;
 	
 
 }
@@ -63,18 +60,23 @@
 			break;
 			
 		case 1:
-			cell.textLabel.text = @"Word Picker";
-			break;
-			
-		case 3:
-			cell.textLabel.text = @"Tone Analzer";
+			cell.textLabel.text = @"HRV Dashboard";
 			break;
             
         case 2:
-            cell.textLabel.text = @"HRV Dashboard";
+            cell.textLabel.text = @"Tone Analyzer";
             break;
 			
-		case 4:
+		case 3:
+			cell.textLabel.text = @"Word Picker";
+			break;
+        
+        case 4:
+            cell.textLabel.text = @"Sqaud Leaders";
+            break;
+       
+			
+		case 5:
 			cell.textLabel.text = @"Sign Out";
 			break;
 	}
@@ -98,18 +100,22 @@
 			break;
 			
 		case 1:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"ZViewController"];
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"HRVViewController"];
 			break;
 			
 		case 2:
-			vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"ProfileViewController"];
+			vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"ToneViewController"];
 			break;
             
         case 3:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"ZViewController"];
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"WordViewController"];
+            break;
+            
+        case 4:
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"FriendsViewController"];
             break;
 			
-		case 4:
+        case 5:
 			[self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
 			[[SlideNavigationController sharedInstance] popToRootViewControllerAnimated:YES];
 			return;

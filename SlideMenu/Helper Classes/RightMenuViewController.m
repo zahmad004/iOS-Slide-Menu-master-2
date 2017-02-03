@@ -1,10 +1,4 @@
-//
-//  RightMenuViewController.m
-//  SlideMenu
-//
-//  Created by Aryan Gh on 4/26/14.
-//  Copyright (c) 2014 Aryan Ghassemi. All rights reserved.
-//
+
 
 #import "RightMenuViewController.h"
 

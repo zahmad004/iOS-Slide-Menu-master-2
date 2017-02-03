@@ -40,14 +40,16 @@
 		1943D5081E40A91900464446 /* logo_grit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1943D5061E40A91900464446 /* logo_grit.png */; };
 		1943D5091E40A91900464446 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1943D5071E40A91900464446 /* bg.png */; };
 		1943D50B1E40B4A000464446 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1943D50A1E40B4A000464446 /* Launch Screen.storyboard */; };
-		19C525A21E42D10B00CBE10E /* watson2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C525A11E42D10B00CBE10E /* watson2.png */; };
-		19C525A61E42D3CE00CBE10E /* doctor_heart_rate.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C525A51E42D3CE00CBE10E /* doctor_heart_rate.png */; };
-		19F21F091E42E16F00653019 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 19F21F081E42E16F00653019 /* icons */; };
-		19F21F0D1E42EC9B00653019 /* watson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19F21F0C1E42EC9B00653019 /* watson.jpeg */; };
 		19F21F141E42F61400653019 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F21F131E42F61400653019 /* Images.xcassets */; };
 		19F21F171E43024900653019 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F21F151E43024900653019 /* MainStoryboard_iPhone.storyboard */; };
 		19F21F191E4311CA00653019 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F21F181E4311CA00653019 /* CoreBluetooth.framework */; };
 		19F21F461E4331DC00653019 /* ToneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F21F441E4331DC00653019 /* ToneViewController.m */; };
+		19F4015C1E44D20900C64BA2 /* watson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19F4015B1E44D20900C64BA2 /* watson.jpeg */; };
+		19F4015E1E44D29200C64BA2 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 19F4015D1E44D29200C64BA2 /* icons */; };
+		19F401601E44D5AE00C64BA2 /* watson2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F4015F1E44D5AE00C64BA2 /* watson2.png */; };
+		19F401621E44D5E400C64BA2 /* doctor_heart_rate.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F401611E44D5E400C64BA2 /* doctor_heart_rate.png */; };
+		19F401651E44DBCC00C64BA2 /* HRVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F401631E44DBCC00C64BA2 /* HRVViewController.m */; };
+		19F401681E44E0AB00C64BA2 /* WordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F401661E44E0AB00C64BA2 /* WordViewController.m */; };
 		997929E2187336AA00716C77 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 997929E1187336AA00716C77 /* FriendsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -112,15 +114,19 @@
 		1943D5061E40A91900464446 /* logo_grit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_grit.png; sourceTree = "<group>"; };
 		1943D5071E40A91900464446 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		1943D50A1E40B4A000464446 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		19C525A11E42D10B00CBE10E /* watson2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watson2.png; path = ../../../../watson2.png; sourceTree = "<group>"; };
-		19C525A51E42D3CE00CBE10E /* doctor_heart_rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doctor_heart_rate.png; path = ../../../../doctor_heart_rate.png; sourceTree = "<group>"; };
-		19F21F081E42E16F00653019 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../../icons; sourceTree = "<group>"; };
-		19F21F0C1E42EC9B00653019 /* watson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = watson.jpeg; path = ../../../../../Downloads/watson.jpeg; sourceTree = "<group>"; };
 		19F21F131E42F61400653019 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		19F21F161E43024900653019 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		19F21F181E4311CA00653019 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		19F21F441E4331DC00653019 /* ToneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneViewController.m; sourceTree = "<group>"; };
 		19F21F451E4331DC00653019 /* ToneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToneViewController.h; sourceTree = "<group>"; };
+		19F4015B1E44D20900C64BA2 /* watson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watson.jpeg; sourceTree = "<group>"; };
+		19F4015D1E44D29200C64BA2 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		19F4015F1E44D5AE00C64BA2 /* watson2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watson2.png; sourceTree = "<group>"; };
+		19F401611E44D5E400C64BA2 /* doctor_heart_rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doctor_heart_rate.png; sourceTree = "<group>"; };
+		19F401631E44DBCC00C64BA2 /* HRVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRVViewController.m; path = ../HRVViewController.m; sourceTree = "<group>"; };
+		19F401641E44DBCC00C64BA2 /* HRVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRVViewController.h; path = ../HRVViewController.h; sourceTree = "<group>"; };
+		19F401661E44E0AB00C64BA2 /* WordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordViewController.m; sourceTree = "<group>"; };
+		19F401671E44E0AB00C64BA2 /* WordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordViewController.h; sourceTree = "<group>"; };
 		997929E0187336AA00716C77 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
 		997929E1187336AA00716C77 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -262,8 +268,12 @@
 		15CBD675172A15F900F0C53E /* Helper Classes */ = {
 			isa = PBXGroup;
 			children = (
+				19F401661E44E0AB00C64BA2 /* WordViewController.m */,
+				19F401671E44E0AB00C64BA2 /* WordViewController.h */,
 				19F21F441E4331DC00653019 /* ToneViewController.m */,
 				19F21F451E4331DC00653019 /* ToneViewController.h */,
+				19F401631E44DBCC00C64BA2 /* HRVViewController.m */,
+				19F401641E44DBCC00C64BA2 /* HRVViewController.h */,
 				15CBD678172A15F900F0C53E /* LeftMenuViewController.h */,
 				15CBD679172A15F900F0C53E /* LeftMenuViewController.m */,
 				15E7D316190C24E3002EAE3F /* RightMenuViewController.h */,
@@ -292,11 +302,11 @@
 		15E7D319190C2894002EAE3F /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				19C525A51E42D3CE00CBE10E /* doctor_heart_rate.png */,
-				19C525A11E42D10B00CBE10E /* watson2.png */,
-				19F21F0C1E42EC9B00653019 /* watson.jpeg */,
+				19F4015D1E44D29200C64BA2 /* icons */,
+				19F401611E44D5E400C64BA2 /* doctor_heart_rate.png */,
+				19F4015F1E44D5AE00C64BA2 /* watson2.png */,
+				19F4015B1E44D20900C64BA2 /* watson.jpeg */,
 				1943D5061E40A91900464446 /* logo_grit.png */,
-				19F21F081E42E16F00653019 /* icons */,
 				1943D5071E40A91900464446 /* bg.png */,
 				15E7D326190C3DAE002EAE3F /* gear.png */,
 				15E7D320190C3B75002EAE3F /* rightMenu.jpg */,
@@ -379,20 +389,20 @@
 			files = (
 				15E7D321190C3B75002EAE3F /* rightMenu.jpg in Resources */,
 				19F21F171E43024900653019 /* MainStoryboard_iPhone.storyboard in Resources */,
-				19C525A21E42D10B00CBE10E /* watson2.png in Resources */,
+				19F401601E44D5AE00C64BA2 /* watson2.png in Resources */,
+				19F4015E1E44D29200C64BA2 /* icons in Resources */,
 				15E7D327190C3DAE002EAE3F /* gear.png in Resources */,
-				19C525A61E42D3CE00CBE10E /* doctor_heart_rate.png in Resources */,
+				19F4015C1E44D20900C64BA2 /* watson.jpeg in Resources */,
 				15371EF51728E3B400A508F4 /* Default.png in Resources */,
 				1943D5091E40A91900464446 /* bg.png in Resources */,
 				15371EF71728E3B400A508F4 /* Default@2x.png in Resources */,
 				15E7D31F190C33A5002EAE3F /* leftMenu.jpg in Resources */,
 				15371EF91728E3B400A508F4 /* Default-568h@2x.png in Resources */,
-				19F21F091E42E16F00653019 /* icons in Resources */,
-				19F21F0D1E42EC9B00653019 /* watson.jpeg in Resources */,
 				1943D5081E40A91900464446 /* logo_grit.png in Resources */,
 				1943D50B1E40B4A000464446 /* Launch Screen.storyboard in Resources */,
 				19F21F141E42F61400653019 /* Images.xcassets in Resources */,
 				15371EFF1728E3B400A508F4 /* MainStoryboard_iPad.storyboard in Resources */,
+				19F401621E44D5E400C64BA2 /* doctor_heart_rate.png in Resources */,
 				15CBD6BE172BBB3600F0C53E /* menu-button@2x.png in Resources */,
 				15CBD6C0172BBB7100F0C53E /* menu-button.png in Resources */,
 			);
@@ -442,6 +452,8 @@
 				15CBD67D172A15F900F0C53E /* LeftMenuViewController.m in Sources */,
 				15C9AC1A1895A80E006E6F27 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				15CBD67E172A15F900F0C53E /* ProfileViewController.m in Sources */,
+				19F401651E44DBCC00C64BA2 /* HRVViewController.m in Sources */,
+				19F401681E44E0AB00C64BA2 /* WordViewController.m in Sources */,
 				19F21F461E4331DC00653019 /* ToneViewController.m in Sources */,
 				15CBD689172A22B700F0C53E /* ProfileDetailViewController.m in Sources */,
 			);
